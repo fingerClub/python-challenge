@@ -58,8 +58,8 @@ with open(file) as csv1:
     print(f"Total Months: {months}")
     print(f"Total: ${total}")
     print(f"Average Change: {avgChange}")
-    print(f"Greatest Increase in Profits: {dateMax} ({maxMan})")
-    print(f"Greatest Decrease in Profits: {dateMin} ({minMan})")
+    print(f"Greatest Increase in Profits: {dateMax} (${maxMan})")
+    print(f"Greatest Decrease in Profits: {dateMin} (${minMan})")
     #Write to txt file
     with open('analysis/financialAnalysis.txt', 'w') as file:
         file.write("Financial Analysis\n")
@@ -67,8 +67,8 @@ with open(file) as csv1:
         file.write(f"Total Months: {months}\n")
         file.write(f"Total: ${total}\n")
         file.write(f"Average Change: {avgChange}\n")
-        file.write(f"Greatest Increase in Profits: {dateMax} ({maxMan})\n")
-        file.write(f"Greatest Decrease in Profits: {dateMin} ({minMan})\n")
+        file.write(f"Greatest Increase in Profits: {dateMax} (${maxMan})\n")
+        file.write(f"Greatest Decrease in Profits: {dateMin} (${minMan})\n")
 
         
     
